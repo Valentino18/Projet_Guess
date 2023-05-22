@@ -2,7 +2,7 @@
 
 **Mon matériel :**
 
-- MacBook pro M1 2020
+- Huawei Matebook 2020
 - PHP 8.0
 - GIT 2.33
 
@@ -226,4 +226,4 @@ En d’autres termes j’ai donc fini le challenge 2 et je pense avoir expliquer
 
 Mais tout fini bien et c’est le principale .
 
-Enzo Carpentier
+Valentino N'ZITA
