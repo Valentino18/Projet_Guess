@@ -1,0 +1,27 @@
+= Analyse
+// Settings
+ifdef::env-gitlab[:outfilesuffix: .adoc]
+
+[plantuml, diagram-classes, png]
+....
+class Guess {
+  withHelp : boolean
+
+  start()
+  processUserProposal(c : Card)
+  getStatistic()
+}
+
+class Card {
+  name
+  color
+  {static} cmp(Card c1, Card c2) : int
+}
+
+Guess -> "\nselectedCard  1  " Card : "                             "
+Guess -> "cards *  " Card : "                                     "
+
+hide circle
+....
+
+
